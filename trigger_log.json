@@ -1,0 +1,83 @@
+{
+    "console":{
+        "enable":true,
+        "level":"FINE"
+    },
+    "files":[
+        {
+            "enable":false,
+            "level":"FINEST",
+            "filename":"logs/trigger.log",
+            "category":"Test",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M"
+        },
+        {
+            "enable":true,
+            "level":"FINEST",
+            "filename":"logs/Log.log",
+            "category":"Default",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "rotate":true,
+            "maxsize":"10M",
+            "maxlines":"100K",
+            "daily":true
+        },
+        {
+            "enable":true,
+            "level":"FINEST",
+            "filename":"logs/Info.log",
+            "category":"Info",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "rotate":true,
+            "maxsize":"10M",
+            "maxlines":"100K",
+            "daily":true
+        },
+        {
+            "enable":true,
+            "level":"FINEST",
+            "filename":"logs/warn.log",
+            "category":"Warn",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "rotate":true,
+            "maxsize":"20M",
+            "maxlines":"10K",
+            "daily":true
+        },
+        {
+            "enable":true,
+            "level":"FINEST",
+            "filename":"logs/error.log",
+            "category":"Error",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "rotate":true,
+            "maxsize":"5000k",
+            "maxlines":"10K",
+            "daily":true
+        },
+        {
+            "enable":true,
+            "level":"FINEST",
+            "filename":"logs/Fatal.log",
+            "category":"Fatal",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "rotate":true,
+            "maxsize":"5000k",
+            "maxlines":"10K",
+            "daily":true
+        }
+    ],
+    "sockets":[
+        {
+            "enable":false,
+            "level":"DEBUG",
+            "category":"TestSocket",
+            "pattern":"[%D %T] [%C] [%L] (%S) %M",
+            "addr":"127.0.0.1:12124",
+            "protocol":"udp"
+        }
+    ]
+}
+
+
+

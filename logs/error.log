@@ -1,0 +1,5 @@
+[2019/11/16 14:10:08 CST] [DEFAULT] [INFO] (main.main:46) test
+[2019/11/16 14:10:08 CST] [DEFAULT] [WARN] (main.main:47) test
+[2019/11/16 14:10:08 CST] [DEFAULT] [EROR] (main.main:48) test
+[2019/11/16 14:10:08 CST] [Error] [EROR] (main.main:54) error test
+[2019/11/16 14:10:08 CST] [Error] [EROR] (oauth2Test/log3/log3-1.Test:22) 11111111111111111111              error test
