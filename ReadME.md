@@ -135,24 +135,18 @@ $(document).ready(function () {
 
 [baidu](www.baidu.com)
 
-<https://www.runoob.com>
 
 
 ### 高级链接
 
 这个链接用 1 作为网址变量 [Google][1]  
-这个链接用 runoob 作为网址变量 [Runoob][runoob]  
 [test name][3]
 
 
 [1]: http://www.google.com/
-[runoob]: http://www.runoob.com/
+
 [3]: www.baidu.com
 
-
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
-
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
 
 # 表格
 
