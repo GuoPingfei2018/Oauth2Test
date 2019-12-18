@@ -10,8 +10,8 @@ package main
 
 import (
 	"github.com/jeanphorn/log4go"
-	log3_1 "oauth2Test/log3/log3-1"
-	log3_2 "oauth2Test/log3/log3-2"
+	log3_12 "oauth2Test/log/log3/log3-1"
+	log3_22 "oauth2Test/log/log3/log3-2"
 )
 
 func main() {
@@ -53,8 +53,8 @@ func main() {
 
 	log4go.LOGGER("Error").Error("error test")
 
-	log3_1.Test()
-	log3_2.Test()
+	log3_12.Test()
+	log3_22.Test()
 
 
 
